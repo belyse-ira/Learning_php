@@ -2,20 +2,18 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <title>work</title>
 </head>
 <body>
 <?php
 $sentence="The body of a book";
-echo $sentence;
-echo strtolower($sentence);
-echo $sentence;
 echo strtoupper($sentence);
-echo $sentence;
-echo str_replace("book","college");
-echo $sentence;
+echo strtolower($sentence);
 echo strlen($sentence);
-echo ($sentence);
-echo "m";
+echo $sentence[0];
+echo $sentence[0]="m";
+echo str_replace("book", "college", $sentence);
+
 ?>
 </body>
 </html>
